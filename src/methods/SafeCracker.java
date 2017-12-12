@@ -1,14 +1,9 @@
 package methods;
 
-import java.applet.AudioClip;
-import java.io.File;
-import java.net.MalformedURLException;
 import java.util.Random;
 
-import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import javax.swing.JApplet;
 import javax.swing.JOptionPane;
 
 public class SafeCracker {
@@ -18,7 +13,8 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-
+		int y = 1;
+		tryCode(y);
 
 	}
 
