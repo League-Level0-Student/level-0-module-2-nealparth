@@ -15,14 +15,14 @@ public class SafeCracker {
 		 */
 		int y = 1;
 		tryCode(y);
-
+ 
+ 		
 	}
 
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
-
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
-
+		System.out.print(secretCode);
 		if (guess == secretCode) {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
 			playTheSoundOfSuccess();
